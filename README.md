@@ -1,4 +1,6 @@
 # Grafana SSRF Scan
+This project was developed as a part of [Digital Security](https://github.com/DSecurity) internship in the department of web security audit ["Summer of Hack 2022"](https://dsec.ru/about/vacancies/#internship).
+
 This simple python script acts as the proof-of-concept of the SSRF vulnerability found in **Grafana 9.0.2**. 
 
 In case of Grafana, this SSRF is not exactly a vulnerability, but a feauture.  Because of the essential Grafana function to check availability of a host before asking for data, we can abuse it to check any host and any port we want.
